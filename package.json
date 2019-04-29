@@ -1,0 +1,21 @@
+{
+  "name": "formdata",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Yo Merales",
+  "license": "ISC",
+  "description": "Prueba unica para enviar datos mediante un formulario",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
